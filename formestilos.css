@@ -1,0 +1,74 @@
+.form {
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	height: 550px;
+
+}
+footer {
+	position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+
+	background-color: #1A2A36;
+	padding: 20px;
+	font-family: gabriola;
+	text-align: center;
+	font-weight: bold; 
+	color: white;
+	font-size: 29px;
+
+}
+.titulo {
+	text-align:center;
+	color: white;
+	font-family: "calibri";
+}
+
+legend{
+	color: white;
+	font-family: "calibri";
+}
+p{
+	color: white;
+	font-family: "calibri";
+	font-size: 13px;
+}
+input[type=submit] {
+    width: 100%;
+    font-family: "calibri";
+	font-size: 20px;
+    background: #1EA896;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+}
+input[type=file] {
+	background-color: #E0412C; /* Azul */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 4px ;
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+}
+
+input[type=file]:active {
+	background-color: #3e8e41;
+  	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
+
+input[type=file]:hover {
+	background-color: #008B8B; /* Celeste */
+    color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
